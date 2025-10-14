@@ -3,5 +3,11 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/SAA-01HelloWorld/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SAA-01HelloWorld/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SAA-02Ollama/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SAA-02Ollama/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SAA-03ChatModelChatClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SAA-03ChatModelChatClient/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>
