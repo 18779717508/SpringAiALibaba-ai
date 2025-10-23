@@ -1,11 +1,7 @@
 package com.atguigu.study.controller;
 
-import com.alibaba.cloud.ai.dashscope.api.DashScopeApi;
 import jakarta.annotation.Resource;
-import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.ai.chat.messages.UserMessage;
 import org.springframework.ai.chat.model.ChatModel;
-import org.springframework.boot.context.properties.bind.DefaultValue;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -33,6 +29,8 @@ public class ChatHelloController
         String result = chatModel.call(msg);
         return result;
     }
+
+
 
     /**
      * 流式返回调用

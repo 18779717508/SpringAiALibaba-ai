@@ -1,8 +1,8 @@
 package com.atguigu.study.config;
 
 import com.alibaba.cloud.ai.dashscope.api.DashScopeApi;
-import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -33,4 +33,7 @@ public class SaaLLMConfig
     {
         return ChatClient.builder(dashscopeChatModel).build();
     }
+//    public ChatClient chatClient(ChatModel dashscopeChatModel){
+//        return ChatClient.builder(dashscopeChatModel).build();
+//    }
 }

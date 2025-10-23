@@ -10,6 +10,7 @@
         <module name="SAA-02Ollama" />
         <module name="SAA-01HelloWorld" />
         <module name="SAA-03ChatModelChatClient" />
+        <module name="SAA-04StreamingOutput" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="SAA-01HelloWorld" options="-parameters" />
       <module name="SAA-02Ollama" options="-parameters" />
       <module name="SAA-03ChatModelChatClient" options="-parameters" />
+      <module name="SAA-04StreamingOutput" options="-parameters" />
     </option>
   </component>
 </project>
