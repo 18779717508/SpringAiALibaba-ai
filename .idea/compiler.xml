@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SAA-02Ollama" />
+        <module name="SAA-05Prompt" />
         <module name="SAA-01HelloWorld" />
         <module name="SAA-03ChatModelChatClient" />
         <module name="SAA-04StreamingOutput" />
@@ -20,6 +21,7 @@
       <module name="SAA-02Ollama" options="-parameters" />
       <module name="SAA-03ChatModelChatClient" options="-parameters" />
       <module name="SAA-04StreamingOutput" options="-parameters" />
+      <module name="SAA-05Prompt" options="-parameters" />
     </option>
   </component>
 </project>
